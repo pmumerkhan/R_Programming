@@ -1,7 +1,7 @@
 ---
 title: "Introduction to R Programming"
-author: "Sana Rasheed"
-date: "May 14, 2020"
+author: "Umer khan"
+date: "Feb 04, 2022"
 output: html_document
 ---
 
@@ -28,24 +28,34 @@ output: html_document
 
 
 ```{r }
+ x <- c(1,2,1)
+names(x)
+names(x) <- c("P","U","K")
+names(x)
+
+```
+```{r}
 
 ```
 
 
 ```{r }
-
+#('''"Unfortunately I could not understand this statement",  "2. A variable that contains your name concatenated from        the vector created in (1)")
 ```
 
 
 ```{r }
-
+100:120
 ```
 
 
 ```{r }
-
+matrix(1:6, nrow = 2, ncol = 3)
 ```
 
+```{r}
+# I stuck on 5th line
+```
 
 ```{r }
 #### End solution ####
